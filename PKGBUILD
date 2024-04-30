@@ -6,9 +6,9 @@ url="https://github.com/Amulet-Team/Amulet-LevelDB"
 license=(unknown)
 arch=(any)
 pkgver=1.0.0b5
-pkgrel=1
+pkgrel=2
 makedepends=(python-setuptools git)
-depends=(python python-versioneer python-portalocker python-leveldb)
+depends=(python python-versioneer python-portalocker python-leveldb cython)
 source=(
 	"git+https://github.com/Amulet-Team/Amulet-LevelDB.git#tag=${pkgver}"
 )
